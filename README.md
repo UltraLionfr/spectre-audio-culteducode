@@ -5,19 +5,19 @@
 # Présentation du fichier HTML principal
 Le code HTML de la page définit un certain nombre de contrôles pour le lecteur audio, notamment :
 
-   - Barre de navigation : Il y a une barre de navigation simple avec des liens vers l'Accueil et la page À propos.
+   - **Barre de navigation** : Il y a une barre de navigation simple avec des liens vers l'Accueil et la page À propos.
 
-   - Zone de dépôt : C'est une zone dans laquelle les utilisateurs peuvent glisser-déposer des fichiers audio pour les charger dans le lecteur audio. Il y a également un bouton d'entrée de fichier pour sélectionner les fichiers à charger.
+   - **Zone de dépôt** : C'est une zone dans laquelle les utilisateurs peuvent glisser-déposer des fichiers audio pour les charger dans le lecteur audio. Il y a également un bouton d'entrée de fichier pour sélectionner les fichiers à charger.
 
-   - Contrôles de lecture : Ce sont des boutons pour jouer, mettre en pause, arrêter et mettre en boucle l'audio. Il y a également un sélecteur de vitesse de lecture et une barre de volume.
+   - **Contrôles de lecture** : Ce sont des boutons pour jouer, mettre en pause, arrêter et mettre en boucle l'audio. Il y a également un sélecteur de vitesse de lecture et une barre de volume.
 
-   - Barre de progression : Cette barre affiche la progression de la lecture de l'audio.
+   - **Barre de progression** : Cette barre affiche la progression de la lecture de l'audio.
 
-   - Informations sur le fichier audio : Il y a des éléments pour afficher le nom du fichier audio chargé et le temps écoulé/la durée totale de l'audio.
+   - **Informations sur le fichier audio** : Il y a des éléments pour afficher le nom du fichier audio chargé et le temps écoulé/la durée totale de l'audio.
 
-   - Canvas pour visualiseur : Un élément de toile est utilisé pour afficher une visualisation du spectre audio.
+   - **Canvas pour visualiseur** : Un élément de toile est utilisé pour afficher une visualisation du spectre audio.
 
-   - Élément audio : C'est l'élément audio HTML qui est utilisé pour lire l'audio.
+   - **Élément audio** : C'est l'élément audio HTML qui est utilisé pour lire l'audio.
 
 La page utilise le CSS de Bootstrap pour le style, et elle charge un script JavaScript personnalisé (`main.js`) pour gérer l'interaction de l'utilisateur avec le lecteur audio.
 
@@ -25,7 +25,7 @@ La page utilise le CSS de Bootstrap pour le style, et elle charge un script Java
 
 ## Variables globales
 
-Le script utilise les variables globales suivantes :
+Le script utilise les variables suivantes :
 
 ```javascript
 let audioCtx, source, analyser, canvas, canvasCtx, bufferLength, dataArray, dropzone, playBtn, pauseBtn, stopBtn, loopBtn;
