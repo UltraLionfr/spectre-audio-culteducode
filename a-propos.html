@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Codeathon - Audio Spectrum</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-HzXlPFaARmAWL1Uk1OIr5m2P6wNf6n5wwSFs5PZsO6A6p0FjV+6g7x1yJwO0wwp/"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="glitch" data-text="Accueil">Accueil</a></li>
+            <li><a href="a-propos.html" class="glitch" data-text="À Propos">À Propos</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <style>
+        header {
+          background-color: #1a1a1a;
+          height: 80px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 50px;
+        }
+      
+        nav ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+        nav ul li a {
+          color: #ffffff;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: bold;
+          margin-left: 20px;
+          text-transform: uppercase;
+          transition: all 0.3s ease;
+        }
+      
+        nav ul li a:hover {
+          color: #ff00ff;
+          text-shadow: 0px 0px 10px #ff00ff;
+        }
+      
+        nav ul li:first-child a {
+          margin-left: 0;
+        }
+      </style>
+      <div class="row">
+        <div>
+            <h1 class="text-center mb-5">Codeathon - Audio Spectrum</h1>
+        </div>
+        <div class="col-md-10">
+          <p>Bienvenue sur mon visualiseur de spectre audio</p>
+          <div>
+            <p>Fonctionnalités principales :</p>
+            <ul>
+                <li>Glisser-déposer pour ajouter des fichiers audio</li>
+                <li>Visualisation en temps réel du spectre audio</li>
+                <li>Réglage du volume</li>
+                <li>Lecture de l'audio</li>
+                <li>Mise en pause de l'audio</li>
+                <li>Stopper la lecture du fichier audio en cours</li>
+                <li>Mettre en boucle le fichier audio</li>
+                <li>Gérer la vitesse de lecture de la piste audio</li>
+                <span style="color:#f64f59;">#f64f59 Fréquence : Environ 0 Hz à 512 Hz</span><br>
+                <span style="color:#ff8484;">#ff8484 Fréquence : Environ 512 Hz à 1024 Hz</span><br>
+                <span style="color:#e8a87c;">#e8a87c Fréquence : Environ 1024 Hz à 1536 Hz</span><br>
+                <span style="color:#ffda77;">#ffda77 Fréquence : Environ 1536 Hz à 2048 Hz</span><br>
+                <span style="color:#01c5c4;">#01c5c4 Fréquence : Environ 2048 Hz à 2560 Hz</span><br>
+                <span style="color:#017b8f;">#017b8f Fréquence : Environ 2560 Hz à 3072 Hz</span>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audio controls -->
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Glitch effect -->
+          <div class="cdc-container glitch-text">
+            <div class="cdc-left">
+              <div class="cdc-text">CULTE DU CODE</div>
+            </div>
+            <div class="cdc-right">
+              <div class="cdc-text">CULTE DU CODE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end of container div -->
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
