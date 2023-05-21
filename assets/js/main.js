@@ -121,7 +121,12 @@ function loadAudio(file) {
   });
 }
 
-  
+document.querySelector('button').addEventListener('click', function() {
+  audioCtx.resume().then(() => {
+    console.log('Playback resumed successfully');
+  });
+});
+
   // Fonction de gestion du bouton Play
   function handlePlay() {
     document.getElementById('audio').play();
