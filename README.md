@@ -1,3 +1,7 @@
+### Aperçu du site (le site n'est pas responsive) :
+
+![Site Preview](https://i.imgur.com/fjUbMBg.jpg)
+
 # Présentation du fichier HTML principal
 Le code HTML de la page définit un certain nombre de contrôles pour le lecteur audio, notamment :
 
