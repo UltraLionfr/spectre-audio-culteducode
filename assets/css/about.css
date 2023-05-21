@@ -1,0 +1,39 @@
+.col-md-10 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #1a1a1a;
+    box-shadow: 0px 0px 20px #ff00ff;
+  }
+  
+  .col-md-10 p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #ff00ff;
+  }
+  
+  .col-md-10 ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .col-md-10 li {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #ff00ff;
+  }
+  
+  .col-md-10 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #ff00ff;
+  }
